@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+<!-- turtlebot_teleop_key already has its own built in velocity smoother -->
+<node name="teleop" pkg="udacity_bot" type="teleop" output="screen" />
+</launch>
